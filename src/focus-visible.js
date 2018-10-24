@@ -49,21 +49,6 @@ function init() {
    * @return {boolean}
    */
   function focusTriggersKeyboardModality(el) {
-    var type = el.type;
-    var tagName = el.tagName;
-
-    if (tagName == 'INPUT' && inputTypesWhitelist[type] && !el.readOnly) {
-      return true;
-    }
-
-    if (tagName == 'TEXTAREA' && !el.readOnly) {
-      return true;
-    }
-
-    if (el.isContentEditable) {
-      return true;
-    }
-
     return false;
   }
 

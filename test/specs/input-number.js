@@ -9,7 +9,7 @@ describe('<input type="number">', function() {
     return matchesKeyboard();
   });
 
-  it('should apply .focus-visible on mouse focus', function() {
-    return matchesMouse();
+  it('should NOT apply .focus-visible on mouse focus', function() {
+    return matchesMouse(false);
   });
 });

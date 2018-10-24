@@ -1,6 +1,6 @@
 {
   "name": "focus-visible",
-  "version": "4.1.5",
+  "version": "4.1.6",
   "description": "Polyfill for :focus-visible pseudo-selector",
   "scripts": {
     "build": "rollup -c",
@@ -23,14 +23,14 @@
   "main": "dist/focus-visible.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/WICG/focus-visible.git"
+    "url": "https://github.com/vincesp/focus-visible.git"
   },
   "author": "WICG",
   "license": "W3C",
   "bugs": {
-    "url": "https://github.com/WICG/focus-visible/issues"
+    "url": "https://github.com/vincesp/focus-visible/issues"
   },
-  "homepage": "https://github.com/WICG/focus-visible",
+  "homepage": "https://github.com/vincesp/focus-visible",
   "devDependencies": {
     "ajv": "^6.0.0",
     "chromedriver": "^2.38.2",
